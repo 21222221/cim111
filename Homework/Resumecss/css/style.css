@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP');
+
+body{
+  background-color: #ecf7f9;
+  font-family: 'Noto Serif JP', sans-serif;
+}
+a{
+  text-decoration: none;
+  /* para quitarle la linea a los links */
+  color: #78cad3;
+}
+  p{
+    line-height: 10px;
+    text-indent: 5px;
+  }
+img{
+  text-indent: 30px;
+}
+h1{
+  text-align: center;
+  background-color: #d8f0f3;
+  color: #80ced6;
+}
+#parasize{
+  font-size: large;
+}
+
+.textcolor{
+  color: #8bd2da;
+  background-color: #d8f0f3;
+}
+/*  class can be used multiple times, that's the difference with id  */
+
+.indent{
+  text-indent: 20px
+}
+
+#espacio{
+  text-indent: 20px;
+}

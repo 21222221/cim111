@@ -1,0 +1,20 @@
+#changeText{
+  color: purple;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#fontChange{
+  font-family: fantasy;
+}
+
+.backgroungChange {
+  background-color: blue;
+}
+
+#box{
+  background-color: pink;
+  width: 200px;
+  height: 200px;
+  padding: 10px; /*  da margin a la caja, le añade pixel dimention a la caja. Ajustar el tamaño de la caja si el numero total quiero que sea diferente: incluir el margin  */
+}

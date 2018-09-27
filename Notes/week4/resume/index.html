@@ -22,12 +22,58 @@ h1{
   color: blue;
   background-color: white;
 }
+
+a{
+  text-decoration: none;
+  /* para quitarle la linea a los links */
+  color: yellow;
+  font-weight: bolder;
+  /* esto es para los links */
+}
+
+a:hover{
+  color: black;
+  text-decoration: underline;
+  /* cuando pasas por encima le cambia el color a negro*/
+}
+
+a:visited{
+  color: red;
+}
+
+/* con id le das nombre para poder manejar sus atributos */
+#name{
+  text-align: center;
+  background-color: cyan;
+}
+
+p{
+  line-height: 100px;
+  text-indent: 20px;
+}
+/* espacio entre lineas */
+
+ul li{
+  list-style: none;
+}
+
+/* you are telling it to find firts unordered list then list */
+
+.links{
+  color: cyan;
+}
+
 </style>
 </head>
 
 <body>
 
-<h1>Sara Soto</h1>
+<header>
+
+<h1 id="name">Sara Soto</h1>
+
+</header>
+<main>
 
 <img src="images/Resumephoto.jpg" height="200">
 
@@ -35,10 +81,15 @@ h1{
 
 <br>
 
+<section>
+
 <h2>Education</h2>
 
 <h3>University of miami</h3>
 <p>Bachelor of Arts in Psychology and Sociology</p>
+
+</section>
+<section>
 
 <h2>Experience</h2>
 
@@ -69,6 +120,8 @@ h1{
     <li>Supervised cabin activities weekly for ten cabin members employing organizational and leadership skills, nurturing their youth development</li>
 </ul>
 
+</section>
+
 <br>
 
 <h3>Hobbies</h3>
@@ -84,6 +137,7 @@ h1{
 
 <h4>More information about the organizations</h4>
 
+<aside
 
   <table>
     <tr>
@@ -102,13 +156,21 @@ h1{
 
   </table>
 
+</aside>
+
+
 <br>
+
+</main>
+<footer>
 
   <h3>Office Address</h3>
   <address>
   1320 S Dixie Hwy, Coral Gables, FL 33146
 
 </address>
+
+</footer>
 
 </body>
 </html>
