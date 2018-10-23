@@ -113,7 +113,7 @@ h1{
 
 
 nav{
-  background-color: #ff4d4d;
+  background-color: #ffff66;
   width:100%;
   margin:0 auto;
   font-family: "PT Sans", "sans";
@@ -145,7 +145,7 @@ nav ul li a:hover{
 
 
 #title{
-  color: #0040ff;
+  color: #4d79ff;
   font-family: "PT Sans", "sans";
   margin:0 auto;
   font-size: 150px;
@@ -154,5 +154,5 @@ nav ul li a:hover{
   font-family: "PT Sans", "sans";
 }
 .foot{
-  color: #ff4d4d;
+  color: #4d79ff;
 }
