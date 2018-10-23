@@ -18,7 +18,7 @@ footer{
 }
 main{
   width: 980px;
-  height: 1110px;
+  height: 2010px;
   background-color:white;
   margin: auto;
 }
@@ -40,9 +40,9 @@ h1{
 }
 
 #grid1{
-  display: grid;
+  display: block;
   grid-template-areas: "col1 col2";
-  grid-template-rows: 280px;
+  grid-template-rows: 1880px;
   grid-template-columns: 480px 480px;
   margin: 10px;
 
@@ -65,7 +65,7 @@ h1{
 }
 
 #grid2{
-  display: grid;
+  display: block;
   grid-template-areas: "col3 col4";
   grid-template-rows: 320px;
   grid-template-columns: 480px 480px;
@@ -90,7 +90,7 @@ h1{
 }
 
 #grid3{
-  display: grid;
+  display: block;
   grid-template-areas: "col5 col6";
   grid-template-rows: 240px;
   grid-template-columns: 480px 480px;
