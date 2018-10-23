@@ -1,6 +1,10 @@
 @import "desktop3.css";
 
-header, footer{
+header{
+  height: auto;
+  width: 559px;
+}
+footer{
   height: auto;
   width: 559px;
 }
