@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>How to make healthy cookies</title>
+<link rel="stylesheet" href="css/desktops.css">
+
+<style></style>
+
+</head>
+
+<body>
+  <header>
+    <br>
+
+    <h1 id="title">How to make healthy cookies</h1>
+
+  </header>
+  <main class="main">
+    <br>
+    <br>
+    <br>
+  <h1 id="centertext" >How to make healthy cookies</h1>
+  <br>
+  <p class="cc">Mantaining healty habbits can be difficult, especially when you want a dessert after diner.</p>
+  <p class="cc">That's why we have come up with an idea of how to enjoy what you like while taking care of your health.</p>
+
+
+  <h2 id="steps">Steps</h2>
+  <ol id="centerList">
+    <li id="image1toggle">Add one ingredient at a time to the bowl
+      <div >
+        <img id="image1" src="images/uno.jpeg" width="300">
+      </div>
+
+    </li>
+    <li id="image2toggle">Mix until you have an homogene mass
+      <div>
+        <img id="image2" src="images/dos.jpeg" width="300">
+      </div>
+    </li>
+
+    <li id="image3toggle">Put in the oven for 35 minutes
+      <div>
+    <img id="image3"src="images/tres.jpeg" width="300">
+    </div>
+    </li>
+    <li id="image4toggle">Wait until they are cold and move to a plate
+      <div>
+    <img id="image4"src="images/cuatro.jpeg" width="300">
+  </div>
+    </li>
+
+    <li id="image5toggle">Serve with sald
+      <div>
+    <img id="image5"src="images/cinco.jpeg" width="300">
+  </div>
+    </li>
+  </ol>
+  <br>
+  <br>
+  <br>
+  <br>
+  <p id="fin">We hope you enjoy the cookies and that you stay healthy in the future</p>
+</main>
+
+<footer>
+
+</footer>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+
+<script>
+
+$(document).ready(function(){
+
+  $("#image1").hide();
+
+$("#image1toggle").click(function(){
+  $("#image1").toggle();
+
+
+});
+
+  $("#image2").hide();
+$("#image2toggle").click(function(){
+  $("#image2").toggle();
+});
+
+  $("#image3").hide();
+$("#image3toggle").click(function(){
+  $("#image3").toggle();
+});
+
+  $("#image4").hide();
+$("#image4toggle").click(function(){
+  $("#image4").toggle();
+});
+
+  $("#image5").hide();
+$("#image5toggle").click(function(){
+  $("#image5").toggle();
+});
+
+$("#changeText").click(function(){
+  $("body").css("background-color", "yellow");
+
+});
+
+$("#centertext").click(function(){
+  $("body").css("background-color", "white");
+
+});
+
+$("#centertext").click(function(){
+  $("centertext").css("color", "#ffc266");
+
+});
+
+$("#fin").mouseenter(function(){
+  $("#fin").html("We hope you enjoy the cookies and that you stay healthy in the future :)")
+
+});
+
+
+// test Hacer div con box y poner altura 100%, o la que es más altura de la images test hello hello
+
+});
+
+
+
+</script>
+
+
+
+
+
+</body>
+
+
+</html>
