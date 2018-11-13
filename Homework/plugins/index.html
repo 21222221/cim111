@@ -1,17 +1,103 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Barcelona</title>
+  <title>Vacation folder</title>
+    <link rel="stylesheet" href="css/jinvertScroll.css">
   <link rel="stylesheet" href="css/desktop.css">
 
   <style></style>
 </head>
 <body>
   <header>
-    <h1>Barcelona</h1>
+    <h1 id="title">Barcelona</h1>
+    <div>
+    <p>Barcelona is one of the most visited and popular cities of the world and it has vary important monuments.</p>
+    <p>It's beach, mountain, and city life brings all kinds of audiences making it a very varied destination.</p>
+    <p>It's transpostation system allow turists to move very easily since almost everywhere is accessible by public transportation.</p>
+    <p>This city is home to many of the master pieces created by the architech Antonio Gaudi. His work is what makes this city unique </p>
+    <p>in the whole world and the resason why it should be visited.</p>
+    <img src="images/bcn.jpg">
+    <div>
+      <h1 id="si">Antonio Gaudi</h1>
+      <p>Gaudi is an architech from Barcelona born in 1852 who was a genious that people of his time did not understood.</p>
+        <p>His works require much more than a basic arquitecture understanding, they have phisics, and science.</p>
+        <p>His main inspiration was nature and all his works reflect diferent parts of it especially his structures. </p>
   </header>
-  <main></main>
+
+
+  <main>
+    <div id="box1" class="scroll">
+
+    </div>
+    <div id="box2" class="scroll">
+      <h1 id="marron">Cathedral of Barcelona</h1>
+      <p>Is a cathedral built between 13th and 15th centuries. It is home now to the archbishop of Barcelona.</p>
+
+      <li><a href="https://catedralbcn.org/index.php?lang=en">Visit website here </a></li>
+
+      <img id="image1"src="images/catedral.jpg" width="300">
+
+
+    </div>
+
+     <div id="box3" class="scroll">
+       <h1 id="amarillo">Colonya Guell</h1>
+<p>Inaugurated in 1890, the idea of Eusebi Guell one of Gaudi's closest friends and who supported his works.</p>
+<p>It was intended to be the home of the fabric workers.</p>
+<li><a href="http://www.gaudicoloniaguell.org/en">Visit website here </a></li>
+     <img id="image2"src="images/colonia.jpg" width="300">
+
+      </div>
+
+        <div id="box4" class="scroll">
+          <h1 id="azul">Park Guell</h1>
+          <p>Once again, asked by Eusebi Guell, Gaudi constructed this park between 1900 and 1914 and it became</p>
+          <p>a public park in 1926. It is now a World Heritage Side as declared by UNESCO.</p>
+          <li><a href="https://www.parkguell.es/en/portada">Visit website here </a></li>
+          <img id="image3"src="images/guell.jpg" width="300">
+        </div>
+      <div id="box5" class="scroll">
+        <h1 id="oscuro">La Pedrera</h1>
+        <p>This was a house constructed between 1906 and 1912 to Pere Mila and Roser Segimon, a newly wedded couple that</p>
+        <p>wanted to be part of Barcelona's elite by living in the street Passeig de Gracia</p>
+        <li><a href="https://www.lapedrera.com/en">Visit website here </a></li>
+          <img id="image4"src="images/pedrera.jpg" width="300">
+      </div>
+      <div id="box6" class="scroll">
+        <h1>La Pedrera's door</h1>
+        <p>Gaudi was friends with the Nobel winner Santiago Ramon y Cajal. He discovered the neuron and as a tribute Gaudi</p>
+        <p>made the door shaped as the first image he took of the neurons.</p>
+
+        <img id="image5"src="images/puerta.jpg" width="300">
+      </div>
+      <div id="box7" class="scroll">
+        <h1 id="verde">La Sagrada Familia</h1>
+        <p>This ongoing construction is expected to be finished in 2026 and many architechts have been part of it for</p>
+        <p>many years, but they all work under the instructions and planes that Gaudi left.</p>
+        <li><a href="http://www.sagradafamilia.org/en/">Visit website here </a></li>
+
+        <img id="image6"src="images/familia.jpg" width="300">
+      </div>
+  </main>
   <footer></footer>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+
+  <script src="js/jquery.jinvertScroll.js"></script>
+
+  <script>
+
+  $(document).ready(function(){
+    $.jInvertScroll(['.scroll']);
+
+    });
+
+
+
+
+  </script>
+
+
 </body>
 
 </html>
