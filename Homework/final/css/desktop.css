@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP');
+
+
+body{
+  background-image: url(../images/pet.jpg);
+  background-size: contain;
+  height: auto;
+}
+
+header{
+
+}
+main{
+  height: 900px;
+}
+footer{
+
+}
+
+nav{
+  top:40%;
+  background: linear-gradient(#fff5cc, #800040);
+  width:100%;
+  margin:0 auto;
+  font-family: "PT Sans", "sans";
+}
+
+nav ul{
+
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  margin: 100px;
+
+
+}
+nav ul li a:hover{
+  color: gray;
+}
+
+#grid1{
+position: inherit;
+font-family: "PT Sans", "sans";
+
+}
+#col1{
+  height: 140px;
+  width: 800px;
+
+}
+
+#yo{
+  font-size: 110px;
+  margin-left: 20px;
+  color: #fff5cc;
+}
+
+#col2{
+  border-style: solid;
+  border-width: thin;
+  font-size: 20px;
+  height: 85px;
+  width: 340px;
+  margin-left: 70px;
+  color: #fff5cc;
+}
+#aj{
+  margin-left: 20px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  font-size: 70px;
+  font-family: "PT Sans", "sans";
+  height: 100px;
+  grid-gap: 40px;
+
+
+}
+.col{
+  text-align: center;
+  background: radial-gradient(#fff4cc, transparent);
+
+
+
+}
+.col:hover{
+  color: blue;
+}
+
+div a{
+  text-decoration: none;
+  color: black;
+}
+div a:hover{
+  text-decoration: none;
+  color: #800040;
+}
