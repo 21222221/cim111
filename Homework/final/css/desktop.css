@@ -14,12 +14,14 @@ main{
   height: 900px;
 }
 footer{
-
+  height: 20px
+width: 100%;
+background-color: white;
 }
 
 nav{
   top:40%;
-  background: linear-gradient(#fff5cc, #800040);
+  background: radial-gradient(#800040, transparent);
   width:100%;
   margin:0 auto;
   font-family: "PT Sans", "sans";
