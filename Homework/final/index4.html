@@ -27,13 +27,36 @@
 
 <header></header>
 
-<main></main>
+<main>
+  <div class="grid">
+    <div class="grid-item"><img src="images/roz.jpg"></div>
+    <div class="grid-item grid-item--width2"><img src="images/iop.jpg"></div>
+    <div class="grid-item"><img src="images/aja.jpg"></div>
+
+  </div>
+
+</main>
 
 <footer></footer>
 
 <script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/masonry.pkgd.min.js"></script>
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 
-<script></script>
+
+<script>
+$(document).ready(function(){
+  $.jInvertScroll(['.scroll']);
+  $('.grid').masonry({
+    // set itemSelector so .grid-sizer is not used in layout
+    itemSelector: '.grid-item',
+    // use element for option
+    columnWidth: '.grid-sizer',
+    percentPosition: true
+  })
+  });
+
+</script>
 
 
 </body>
