@@ -28,33 +28,16 @@
 <header></header>
 
 <main>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> <!-- 33 KB -->
 
+  <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 16 KB -->
 
-
-    <ul class="grid effect-2" id="grid">
-      <li><img src="images/roz.jpg"></li>
-      <li><img src="images/roz.jpg"></li>
-      <li><img src="images/roz.jpg"></li>
-      <li><img src="images/roz.jpg"></li>
-      <li><a href="http://drbl.in/fHaa"><img src="images/13.png"></a></li>
-      <li><a href="http://drbl.in/gXMo"><img src="images/10.png"></a></li>
-      <li><a href="http://drbl.in/gXMn"><img src="images/9.jpg"></a></li>
-
-    </ul>
+  <div class="fotorama"
+    data-allowfullscreen="native">
+    <img src="images/roz.jpg">
+    <img src="images/roz.jpg">
   </div>
-  <script src="js/masonry.pkgd.min.js"></script>
-  <script src="js/imagesloaded.js"></script>
-  <script src="js/classie.js"></script>
-  <script src="js/AnimOnScroll.js"></script>
-  <script>
-    new AnimOnScroll( document.getElementById( 'grid' ), {
-      minDuration : 0.4,
-      maxDuration : 0.7,
-      viewportFactor : 0.2
-    } );
-  </script>
-  <!-- For the demo ad -->
-  <script src="//tympanus.net/codrops/adpacks/demoad.js"></script>
 
 </main>
 
