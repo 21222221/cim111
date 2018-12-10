@@ -30,3 +30,8 @@ nav ul li a{
 nav ul li a:hover{
   color: gray;
 }
+.item {
+  width: 220px;
+  margin: 10px;
+  float: left;
+}

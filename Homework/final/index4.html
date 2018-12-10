@@ -28,35 +28,37 @@
 <header></header>
 
 <main>
-  <div class="grid">
-    <div class="grid-item"><img src="images/roz.jpg"></div>
-    <div class="grid-item grid-item--width2"><img src="images/iop.jpg"></div>
-    <div class="grid-item"><img src="images/aja.jpg"></div>
 
+
+
+    <ul class="grid effect-2" id="grid">
+      <li><img src="images/roz.jpg"></li>
+      <li><img src="images/roz.jpg"></li>
+      <li><img src="images/roz.jpg"></li>
+      <li><img src="images/roz.jpg"></li>
+      <li><a href="http://drbl.in/fHaa"><img src="images/13.png"></a></li>
+      <li><a href="http://drbl.in/gXMo"><img src="images/10.png"></a></li>
+      <li><a href="http://drbl.in/gXMn"><img src="images/9.jpg"></a></li>
+
+    </ul>
   </div>
+  <script src="js/masonry.pkgd.min.js"></script>
+  <script src="js/imagesloaded.js"></script>
+  <script src="js/classie.js"></script>
+  <script src="js/AnimOnScroll.js"></script>
+  <script>
+    new AnimOnScroll( document.getElementById( 'grid' ), {
+      minDuration : 0.4,
+      maxDuration : 0.7,
+      viewportFactor : 0.2
+    } );
+  </script>
+  <!-- For the demo ad -->
+  <script src="//tympanus.net/codrops/adpacks/demoad.js"></script>
 
 </main>
 
-<footer></footer>
 
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="js/masonry.pkgd.min.js"></script>
-<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
-
-
-<script>
-$(document).ready(function(){
-  $.jInvertScroll(['.scroll']);
-  $('.grid').masonry({
-    // set itemSelector so .grid-sizer is not used in layout
-    itemSelector: '.grid-item',
-    // use element for option
-    columnWidth: '.grid-sizer',
-    percentPosition: true
-  })
-  });
-
-</script>
 
 
 </body>
