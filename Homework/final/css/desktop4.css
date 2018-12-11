@@ -71,3 +71,6 @@ nav ul li a:hover{
   text-align: center;
   margin-bottom: 50px;
 }
+p{
+  text-align: justify;
+}
