@@ -1,0 +1,104 @@
+#changeText{
+  color: purple;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#fontChange{
+  font-family: fantasy;
+}
+
+.backgroungChange {
+  background-color: blue;
+}
+
+#box{
+  background-color: pink;
+  width: 180px;
+  height: auto;
+  padding: 10px; /*  da margin a la caja, le añade pixel dimention a la caja. Ajustar el tamaño de la caja si el numero total quiero que sea diferente: incluir el margin  */
+
+  border: solid red 10px; /*  can be done all at one time  */
+  display: inline-block;
+  /*  margin:0 auto;  */
+}
+
+#box2{
+  background-color: pink;
+  width: 400px;
+  height: 400px;
+  padding: 10px;
+  display: inline-block;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+#container1{
+  width: 700px;
+  height: auto;
+  background-color: cyan;
+  margin: 0 auto;
+}
+
+.columns{
+  width: 180px;
+  height: 400px;
+  background-color: blue;
+  display: inline-block;
+
+}
+#column1{
+  margin-top: -35px;
+}
+
+header{
+  background-color: orange;
+  width: 960px;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: -20px;
+
+}
+
+main{
+  background-color: black;
+  color: white;
+  width: 960px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: -20px;
+}
+
+footer{
+  background-color: orange;
+  width: 960px;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: -20px; /*  se subieron las zonas de colores  */
+}
+
+nav{
+  background-color: pink;
+  width:300px;
+  margin:0 auto;
+
+}
+
+nav ul{
+
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 10px
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+nav ul li a:hover{
+  color: gray;
+}
