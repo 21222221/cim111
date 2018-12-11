@@ -4,6 +4,7 @@
 body{
   background-image: url(../images/pet.jpg);
   background-size: contain;
+  background-repeat: no-repeat;
   height: auto;
 }
 
@@ -89,6 +90,7 @@ font-family: "PT Sans", "sans";
   grid-gap: 40px;
   margin-left: 50px;
   margin-right: 50px;
+  margin-top: 200px;
 
 
 }

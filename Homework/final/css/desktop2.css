@@ -33,7 +33,7 @@ nav ul li a:hover{
 
 body{
   font-family: "PT Sans", "sans";
-  background-color: ;
+  /*background-color: ;*/
 }
 main{
   height: 1050px;
@@ -95,7 +95,9 @@ main{
 
 main{
   text-align: center;
-  margin-left: 170px;
+  width: 80%;
+  margin: 0 auto;
+
 }
 
 h1{
